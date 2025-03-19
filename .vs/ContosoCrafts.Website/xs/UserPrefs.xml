@@ -1,4 +1,37 @@
 ﻿<Properties StartupConfiguration="{71FE6533-6F71-483D-83BA-32395459CCDD}|http">
-  <MonoDevelop.Ide.ItemProperties.ContosoCrafts.Website FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.ContosoCrafts.Website PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ContosoCrafts.Website/Pages/Index.cshtml">
+    <Files>
+      <File FileName="ContosoCrafts.Website/Pages/Index.cshtml" Line="18" Column="1" />
+      <File FileName="ContosoCrafts.Website/wwwroot/data/products.json" Line="148" Column="20" />
+      <File FileName="ContosoCrafts.Website/Models/Product.cs" Line="9" Column="10" />
+      <File FileName="ContosoCrafts.Website/Services/JsonFileProductService.cs" Line="21" Column="31" />
+      <File FileName="ContosoCrafts.Website/Program.cs" Line="28" Column="1" />
+      <File FileName="ContosoCrafts.Website/Pages/Index.cshtml.cs" Line="13" Column="24" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ContosoCrafts.Website" expanded="True">
+            <Node name="ContosoCrafts.Website" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Index.cshtml" expanded="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="data" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
 </Properties>
