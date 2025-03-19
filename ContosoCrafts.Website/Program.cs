@@ -1,4 +1,5 @@
-﻿using ContosoCrafts.Website.Services;
+﻿using System.Text.Json;
+using ContosoCrafts.Website.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,6 +23,13 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
+
+app.MapGet("/products", async (JsonFileProductService productService) =>
+{
+    var products = productService.GetProducts();
+    var json = JsonSerializer.Serialize(products);
+    return json;
+});
 
 app.Run();
 
