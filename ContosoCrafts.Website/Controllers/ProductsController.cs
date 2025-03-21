@@ -27,6 +27,17 @@ namespace ContosoCrafts.Website.Controllers
             return _productService.GetProducts();
         }
 
+        [Route("Rate")]
+        [HttpGet]
+        public ActionResult Get([FromQuery] string productId, [FromQuery] int Rating)
+        {
+            if (string.IsNullOrEmpty(productId) || Rating == 0)
+                return BadRequest();
+            var result = _productService.AddRating(productId, Rating);
+
+            return result ? Ok() : NotFound();
+        }
+
         // GET api/values/5
         [HttpGet("{id}")]
         public string Get(int id)

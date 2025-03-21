@@ -1,22 +1,27 @@
 ﻿<Properties StartupConfiguration="{71FE6533-6F71-483D-83BA-32395459CCDD}|http">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ContosoCrafts.Website/Program.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ContosoCrafts.Website/Controllers/ProductsController.cs">
     <Files>
       <File FileName="ContosoCrafts.Website/Pages/Index.cshtml" />
       <File FileName="ContosoCrafts.Website/wwwroot/data/products.json" />
-      <File FileName="ContosoCrafts.Website/Models/Product.cs" />
-      <File FileName="ContosoCrafts.Website/Services/JsonFileProductService.cs" />
-      <File FileName="ContosoCrafts.Website/Program.cs" Line="31" Column="17" />
+      <File FileName="ContosoCrafts.Website/Models/Product.cs" Line="13" Column="1" />
+      <File FileName="ContosoCrafts.Website/Services/JsonFileProductService.cs" Line="21" Column="15" />
+      <File FileName="ContosoCrafts.Website/Program.cs" Line="8" Column="35" />
       <File FileName="ContosoCrafts.Website/Pages/Index.cshtml.cs" />
       <File FileName="ContosoCrafts.Website/wwwroot/css/site.css" />
       <File FileName="ContosoCrafts.Website/Pages/Shared/_Layout.cshtml" />
+      <File FileName="ContosoCrafts.Website/Controllers/ProductsController.cs" Line="28" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ContosoCrafts.Website">
-            <Node name="ContosoCrafts.Website">
+          <Node name="ContosoCrafts.Website" expanded="True" selected="True">
+            <Node name="ContosoCrafts.Website" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True" />
-              <Node name="Program.cs" selected="True" />
+              <Node name="Services" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -24,10 +29,10 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.ContosoCrafts.Website PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/vishwaschaugule/Projects/ContosoCrafts.Website/ContosoCrafts.Website/Controllers/ProductsController.cs" relfile="ContosoCrafts.Website/Controllers/ProductsController.cs" line="26" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
