@@ -18,14 +18,14 @@ namespace ContosoCrafts.Website.Services
 			return Path.Combine(WebHostEnvironment.WebRootPath, "data", "products.json");
 		}
 
-		public IEnumerable<Product> GetProducts()
+        public IEnumerable<Product> GetProducts()
 		{
 			using(var jsonFileReader = File.OpenText(GetJsonFileName()))
 			{
 				return JsonSerializer.Deserialize<Product[]>(jsonFileReader.ReadToEnd(),
 					new JsonSerializerOptions
 					{
-						PropertyNameCaseInsensitive = true
+                        PropertyNameCaseInsensitive = true
 					});
 
             }
