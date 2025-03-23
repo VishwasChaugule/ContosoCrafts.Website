@@ -1,38 +1,47 @@
 ﻿<Properties StartupConfiguration="{71FE6533-6F71-483D-83BA-32395459CCDD}|http">
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ContosoCrafts.Website/Controllers/ProductsController.cs">
+  <MonoDevelop.Ide.ItemProperties.ContosoCrafts.Website PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../usr/local/share/dotnet/sdk/7.0.308/Microsoft.Common.CurrentVersion.targets">
     <Files>
-      <File FileName="ContosoCrafts.Website/Pages/Index.cshtml" />
+      <File FileName="ContosoCrafts.Website/Pages/Index.cshtml" Line="15" Column="32" />
       <File FileName="ContosoCrafts.Website/wwwroot/data/products.json" />
-      <File FileName="ContosoCrafts.Website/Models/Product.cs" Line="13" Column="1" />
-      <File FileName="ContosoCrafts.Website/Services/JsonFileProductService.cs" Line="21" Column="15" />
-      <File FileName="ContosoCrafts.Website/Program.cs" Line="8" Column="35" />
+      <File FileName="ContosoCrafts.Website/Models/Product.cs" />
+      <File FileName="ContosoCrafts.Website/Services/JsonFileProductService.cs" />
+      <File FileName="ContosoCrafts.Website/Program.cs" Line="38" Column="1" />
       <File FileName="ContosoCrafts.Website/Pages/Index.cshtml.cs" />
       <File FileName="ContosoCrafts.Website/wwwroot/css/site.css" />
       <File FileName="ContosoCrafts.Website/Pages/Shared/_Layout.cshtml" />
-      <File FileName="ContosoCrafts.Website/Controllers/ProductsController.cs" Line="28" Column="1" />
+      <File FileName="ContosoCrafts.Website/Controllers/ProductsController.cs" />
+      <File FileName="ContosoCrafts.Website/Components/ProductList.razor" Line="19" Column="90" />
+      <File FileName="../../../../usr/local/share/dotnet/sdk/7.0.308/Microsoft.Common.CurrentVersion.targets" Line="4752" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ContosoCrafts.Website" expanded="True" selected="True">
-            <Node name="ContosoCrafts.Website" expanded="True">
+          <Node name="ContosoCrafts.Website">
+            <Node name="ContosoCrafts.Website">
+              <Node name="Components" expanded="True">
+                <Node name="ProductList.razor" selected="True" />
+              </Node>
               <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True" />
               <Node name="Services" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="data" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.ContosoCrafts.Website PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/vishwaschaugule/Projects/ContosoCrafts.Website/ContosoCrafts.Website/Controllers/ProductsController.cs" relfile="ContosoCrafts.Website/Controllers/ProductsController.cs" line="26" column="1" />
+      <Breakpoint file="/Users/vishwaschaugule/Projects/ContosoCrafts.Website/ContosoCrafts.Website/Components/ProductList.razor" relfile="ContosoCrafts.Website/Components/ProductList.razor" line="66" column="1" />
+      <Breakpoint file="/Users/vishwaschaugule/Projects/ContosoCrafts.Website/ContosoCrafts.Website/Components/ProductList.razor" relfile="ContosoCrafts.Website/Components/ProductList.razor" line="8" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

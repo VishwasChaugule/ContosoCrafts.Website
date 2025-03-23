@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/vishwaschaugule/Projects/ContosoCrafts.Website/ContosoCrafts.Website
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/vishwaschaugule/Projects/ContosoCrafts.Website/ContosoCrafts.Website/Components/ProductList.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Qcm9kdWN0TGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/vishwaschaugule/Projects/ContosoCrafts.Website/ContosoCrafts.Website/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

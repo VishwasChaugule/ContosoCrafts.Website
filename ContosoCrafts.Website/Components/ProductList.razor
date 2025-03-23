@@ -1,0 +1,69 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+@using ContosoCrafts.Website.Models
+@using ContosoCrafts.Website.Services
+@inject JsonFileProductService productService
+
+
+<div class="row">
+    @foreach (var product in productService.GetProducts())
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-img-top" style="background-image: url('@product.Image'); background-size: cover; background-position: center; height: 200px;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">@product.Title</h5>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">
+                        <button @onclick="(e => SelectProduct(product?.Id ?? string.Empty))"
+                                data-toggle="modal" data-target="#productModal" class="btn btn-primary">
+                            More Info
+                        </button>
+                    </small>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<div class="modal fade" id="productModal" tabindex="-1" role="dialog" aria-labelledby="productTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        @if (selectedProduct != null)
+        {
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productTitle">@selectedProduct.Title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('@selectedProduct.Image');">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">@selectedProduct.Description</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+
+@code {
+    Product selectedProduct;
+    string selectedProductId;
+
+    void SelectProduct(string productId)
+    {
+        selectedProductId = productId;
+        selectedProduct = productService.GetProducts().First(x => x.Id == selectedProductId);
+    }
+
+}
+
